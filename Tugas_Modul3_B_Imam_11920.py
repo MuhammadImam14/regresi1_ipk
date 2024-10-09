@@ -72,7 +72,7 @@ if uploaded_file is not None:
 
    model_path = r'SVR_IPK_model.pkl'
 
-   if os.patch.exists(model_path):
+   if os.path.exists(model_path):
     with open(model_path, 'rb') as f:
         loaded_model = pickle.load(f)
 
