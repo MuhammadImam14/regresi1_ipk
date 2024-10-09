@@ -83,7 +83,7 @@ if uploaded_file is not None:
        st.sidebar.subheader("Masukkan Nilai")
        mtk1 = st.sidebar.number_input("Nilai Matematika Semester 1.1", 60.0, 100.0)
        mtk2 = st.sidebar.number_input("Nilai Matematika Semester 1.2", 60.0, 100.0)
-               mtk3 = st.sidebar.number_input("Nilai Matematika Semester 2.1", 68.0, 100.0)
+         mtk3 = st.sidebar.number_input("Nilai Matematika Semester 2.1", 68.0, 100.0)
         mtk4 = st.sidebar.number_input("Nilai Matematika Semester 2.2", 66.0, 100.0)
         ing1 = st.sidebar.number_input("Nilai Bahasa Inggris Semester 1.1", 64.0, 98.0)
         ing2 = st.sidebar.number_input("Nilai Bahasa Inggris Semester 1.2", 62.0, 99.0)
